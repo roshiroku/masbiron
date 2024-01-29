@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --light-rgb: 255, 255, 255;
+  --dark-rgb: 17, 24, 39;
+  --primary-rgb: 0, 149, 239;
+  --secondary-rgb: 9, 193, 225;
+  --tertiary-rgb: 1, 21, 50;
+  --accent-rgb: 230, 55, 70;
+}
+
+html,
+body,
+#__next {
+  height: 100%;
+}
